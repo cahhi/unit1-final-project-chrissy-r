@@ -17,7 +17,7 @@ export function NavBar() {
             <Link to="/postcard">
             <button>Postcard</button>
             </Link>
-            <Link to="/profile">
+            <Link to="/userProfile">
                 <button>Profile</button>
             </Link>
 

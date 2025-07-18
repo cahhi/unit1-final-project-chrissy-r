@@ -1,10 +1,18 @@
+import { useState } from "react";
 
 
 
 export default function Postcard() {
+   
+    const [name, setName] = useState("Jane Doe");
+    const [addressLine1, setaddressLine1] = useState("123 Main St");
+    const [state, setState] = useState("Anywhere");
+    const [zipcode, setZipcode] = useState("12345");
+
+
     return (
-        <div>
-            <h1>This is the Postcard page</h1>
+        <div className="postcard">
+            
         </div>
     );
 }

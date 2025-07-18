@@ -6,6 +6,7 @@ import AboutPage from './Pages/about';
 import Itinerary from './Pages/itinerary';
 import Postcard from './Pages/postcard';
 import UserProfile from './Pages/userProfile';
+import Layout from './Layout';
 
 function App() {
  
@@ -13,11 +14,13 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />}/>
-        <Route path="/about" element={<AboutPage />}/>
-        <Route path="/itinerary" element={<Itinerary />}/>
-        <Route path="/postcard" element={<Postcard />}/>
-        <Route path="/userProfile" element={<UserProfile />}/>
+        <Route element={<Layout />}>
+          <Route path="/" element={<HomePage />}/>
+          <Route path="/about" element={<AboutPage />}/>
+          <Route path="/itinerary" element={<Itinerary />}/>
+          <Route path="/postcard" element={<Postcard />}/>
+          <Route path="/userProfile" element={<UserProfile />}/>
+        </Route>
       </Routes>
     </Router>
   )
