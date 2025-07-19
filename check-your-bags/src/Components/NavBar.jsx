@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
 
-export function NavBar() {
+export default function NavBar() {
 
     return (
-        <>
+        <div>
             <Link to="/">
                 <button>Home</button>
             </Link>
@@ -22,6 +22,6 @@ export function NavBar() {
             </Link>
 
 
-        </>
+        </div>
     )
 }

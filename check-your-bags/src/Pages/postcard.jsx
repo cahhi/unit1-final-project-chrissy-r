@@ -12,7 +12,9 @@ export default function Postcard() {
 
     return (
         <div className="postcard">
-            
+           <div className="postcard-info">
+                
+           </div> 
         </div>
     );
 }
