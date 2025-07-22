@@ -1,5 +1,5 @@
-import { NavBar } from "./Components/NavBar";
 import { Outlet } from "react-router-dom";
+import NavBar from "./Components/Navbar";
 
 
 export default function Layout() { 
@@ -13,5 +13,5 @@ export default function Layout() {
         </>
     ) 
 }
-
+ 
 //Layout is the parent route to the rest of the components because of Outlet (pages are the children)

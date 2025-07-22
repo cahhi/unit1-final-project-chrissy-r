@@ -1,27 +1,31 @@
 import { Link } from "react-router-dom";
+import '../Styles/NavBar.css';
+
 
 
 export default function NavBar() {
 
     return (
-        <div>
-            <Link to="/">
-                <button>Home</button>
-            </Link>
-            <Link to="/about">
-                <button>About</button>
-            </Link>
-            <Link to="/itinerary">
-                <button>Itinerary</button>
-            </Link>
-            <Link to="/postcard">
-            <button>Postcard</button>
-            </Link>
-            <Link to="/userProfile">
-                <button>Profile</button>
-            </Link>
+        <div className="navbar">
+            <div className="leftSide">
+                
+                <Link to="/">
+                    <button className="home-button">Home</button>
+                </Link>
+                <Link to="/about">
+                    <button>About</button>
+                </Link>
+                <Link to="/packingList">
+                    <button className="packingList-button">Packing List</button>
+                </Link>
+                <Link to="/postcard">
+                   <button className="postcard-button">Postcard</button>
+                </Link>
+                <Link to="/userProfile">
+                    <button className="profile-button">Profile</button>
+                </Link>
 
-
+            </div>
         </div>
-    )
+    );
 }
