@@ -9,15 +9,21 @@ import packing1 from '../Pictures/packing1.jpg';
 
 export default function PackingList() {
 
-    const [items, setItems] = useState(["Watch the dog"]);
+    const [items, setItems] = useState([]);
     const [newItem, setNewItem] = useState("");
+    
 
+    function isPacked(i) {
+        setItems
+    }
 
     function addItem() {
 
         if(newItem.trim() !== "") {
         setItems(items => [...items, newItem]);
-        setNewItem("");
+        setNewItem("")
+        }else {
+            alert('Please enter an item!')
         }
 
     }
@@ -25,16 +31,12 @@ export default function PackingList() {
 
     function deleteItem(index) {
 
-            const updatedItems = items.filter((element, i) => i !== index);
-            setItems(updatedItems);
+        const updatedItems = items.filter((element, i) => i !== index);
+        setItems(updatedItems)
+        alert("This item has been removed!");
 
 
     }
-
-    function editItem(i) {
-
-    }
-
 
     return (
         <div className="packingList">
@@ -58,13 +60,13 @@ export default function PackingList() {
                     <span className="text">{item}</span>
                     <button
                     className="delete-button"
-                    onClick={() => deleteItem(index)}
+                    onClick={() => deleteItem(index) }
                     >🗑️</button>
-                      <button
+                    {/*  <button
                     className="edit-button"
                     onClick={() => editItem(index)}
-                    >✏️</button>
-                </li>)}
+                    >✏️</button> */}
+                </li>)} 
             </ol>
            
         </div>

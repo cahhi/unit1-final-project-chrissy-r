@@ -8,12 +8,14 @@ import PackingList from './Pages/packingList';
 import Postcard from './Pages/postcard';
 import UserProfile from './Pages/userProfile';
 import Layout from './Layout';
+import Footer from './Components/Footer';
 
 
-function App() {
+const App = () => {
  
 
   return (
+    <>
     <header>
      <Router>
         <Routes>
@@ -27,6 +29,9 @@ function App() {
         </Routes>
       </Router>
     </header>
+    
+    <Footer />
+    </>
   )
 }
 

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import '../Styles/NavBar.css';
+import Header from "./Header";
 
 
 
@@ -8,7 +9,7 @@ export default function NavBar() {
     return (
         <div className="navbar">
             <div className="leftSide">
-                
+                <Header />
                 <Link to="/">
                     <button className="home-button">Home</button>
                 </Link>
@@ -21,9 +22,9 @@ export default function NavBar() {
                 <Link to="/postcard">
                    <button className="postcard-button">Postcard</button>
                 </Link>
-                <Link to="/userProfile">
+              {/*   <Link to="/userProfile">
                     <button className="profile-button">Profile</button>
-                </Link>
+                </Link> */}
 
             </div>
         </div>

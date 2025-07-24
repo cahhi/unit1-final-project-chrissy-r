@@ -1,0 +1,26 @@
+table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+caption {
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+}
+
+th, td {
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: rgba(160, 228, 230, 0.913);
+}
+
+
+.about-input {
+     justify-content: center;
+}
+

@@ -1,0 +1,12 @@
+.header h1{
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+    margin: 0 auto;
+    justify-content: flex-end;
+    cursor: pointer;
+    color: black;
+    
+}

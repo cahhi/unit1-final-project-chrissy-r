@@ -7,10 +7,7 @@
     max-width: 3000px;
     margin: 0 auto;
     padding: 0 20px;
-    overflow: hidden;
-    align-items: center;
-
-    
+    overflow: hidden;  
 }
 
 .navbar .leftSide {
@@ -18,16 +15,12 @@
     height: 100%;
     display: flex;
     align-items: center;
-    padding-left: 600px;
+    padding-right: 300px;
     margin: 0 auto;
-
 }
 
-.navbar .leftSide .button {
-    background-color: transparent;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
+
+
+
 
 

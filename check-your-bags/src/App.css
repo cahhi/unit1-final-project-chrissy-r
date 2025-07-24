@@ -1,24 +1,3 @@
-/* .navbar {
-  top: 0;
-  left: 25%;
-  width: 50%;
-  position: fixed;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: tan;
-}
-
-header {
-  display: flex;
-  background-color: black;
-  color: white;
-  margin: 0px;
-
-} */
-
 
 .App{
   width: 100%;
@@ -27,16 +6,22 @@ header {
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  background-color:tan;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-
+  background-color: white;
+  background-image: url("/check-your-bags/src/Pictures/background1.jpg");
 }
+
+@media (orientation: landscape) {
+  body{
+    font-size: 16px;
+  }
+  
+}
+
+
 
 
 

@@ -1,9 +1,7 @@
-
 .packingList {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    margin-top: 50px;
-    
+
 }
 
 .packingList h1 {
@@ -19,8 +17,6 @@
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.5 ease;
-
-
 }
 
 .add-button {
@@ -36,23 +32,10 @@
     margin-left: 10px;
     padding: 8px 12px;
     font-size: 1rem;
-
 }
 
 .delete-button:hover {
     background-color: rgb(219, 75, 75);
-   
-}
-
-.edit-button {
-    background-color: tan;
-    margin-left: 1px;
-    padding: 4px 6px;
-    font-size: 1rem;
-}
-
-.edit-button:hover {
-    background-color: rgb(162, 208, 93);
 }
 
 .packingList input[type="text"] {
@@ -65,6 +48,7 @@
 
 .packingList ol {
     padding: 0;
+    overflow-y: auto;
 }
 
 .packingList li {
@@ -81,11 +65,9 @@
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0%;
-
 }
 
 .delete-button, .edit-button {
     padding: 8px 12px;
     font-size: 1.4rem;
-
 }
