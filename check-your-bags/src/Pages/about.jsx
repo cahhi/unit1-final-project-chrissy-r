@@ -16,8 +16,6 @@ export default function AboutPage() {
             setError("");
             
         }
-        
-    
     }
 
     return (
