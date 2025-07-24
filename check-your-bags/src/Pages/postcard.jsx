@@ -15,7 +15,7 @@ export default function Postcard() {
     const [destination, setDestination] = useState("Paris");
     const [attraction, setAttraction] = useState("the Louvre");
     const [food, setFood] = useState("croissants");
-    const [userName, setUserName] = useState("");
+    const [userName, setUserName] = useState("Your name here");
    
     const postcardSubmit = (e) => {alert('Your Postcard has been sent!');}
 
@@ -54,60 +54,60 @@ export default function Postcard() {
                             </form>
                                 
                         </section>
-                    </div>
-                    <section className="postcard-input">
-                        <h3>Customize your digital postcard now!</h3>
-                        <label>Enter Recipient Name: </label>
-                        <input
-                        type="text"
-                        maxLength="15"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                        placeholder="Jane Doe"
-                        required
-                        />
-                        <br />
-                        <label>Enter Your Destination: </label>
-                        <input 
-                        type="text"
-                        maxLength="15"
-                        value={destination}
-                        onChange={(e) => setDestination(e.target.value)}
-                        placeholder="Paris"
-                        required
-                        />
-                        <br />
-                        <label>Enter one attraction you saw:  </label>
-                        <input 
-                        type="text"
-                        maxLength="15"
-                        value={attraction}
-                        onChange={(e) => setAttraction(e.target.value)}
-                        placeholder="the Louvre"
-                        required
-                        />
-                        <br />
-                        <label>Enter one food item you ate:  </label>
-                        <input 
-                        type="text"
-                        maxLength="15"
-                        value={food}
-                        onChange={(e) => setFood(e.target.value)}
-                        placeholder="croissants"
-                        required
-                        />
-                        <br />
-                        <label>Enter your name:  </label>
-                        <input 
-                        type="text"
-                        maxLength="30"
-                        value={userName}
-                        onChange={(e) => setUserName(e.target.value)}
-                        placeholder="Your Name Here"
-                        required
-                        />    
-                    </section>
-                </div> 
+                            </div>
+                            <form className="postcard-input">
+                                <h3>Customize your digital postcard now!</h3>
+                                    <label>Enter Recipient Name: </label>
+                                    <input
+                                    type="text"
+                                    maxLength="15"
+                                    value={name}
+                                    onChange={(e) => setName(e.target.value)}
+                                    placeholder="Jane Doe"
+                                    required
+                                    />
+                                    <br />
+                                    <label>Enter Your Destination: </label>
+                                    <input 
+                                    type="text"
+                                    maxLength="15"
+                                    value={destination}
+                                    onChange={(e) => setDestination(e.target.value)}
+                                    placeholder="Paris"
+                                    required
+                                    />
+                                    <br />
+                                    <label>Enter one attraction you saw:  </label>
+                                    <input 
+                                    type="text"
+                                    maxLength="15"
+                                    value={attraction}
+                                    onChange={(e) => setAttraction(e.target.value)}
+                                    placeholder="the Louvre"
+                                    required
+                                    />
+                                    <br />
+                                    <label>Enter one food item you ate:  </label>
+                                    <input 
+                                    type="text"
+                                    maxLength="15"
+                                    value={food}
+                                    onChange={(e) => setFood(e.target.value)}
+                                    placeholder="croissants"
+                                    required
+                                    />
+                                    <br />
+                                    <label>Enter your name:  </label>
+                                    <input 
+                                    type="text"
+                                    maxLength="30"
+                                    value={userName}
+                                    onChange={(e) => setUserName(e.target.value)}
+                                    placeholder="Your Name Here"
+                                    required
+                                    />    
+                            </form>
+                        </div> 
         </div>
     </>
     );

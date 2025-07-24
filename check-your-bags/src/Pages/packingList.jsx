@@ -44,6 +44,7 @@ export default function PackingList() {
             <div>
                 <input 
                 type='text'
+                maxLength="20"
                 placeholder='Enter an item...'
                 value={newItem}
                 onChange={(e) => setNewItem(e.target.value)}

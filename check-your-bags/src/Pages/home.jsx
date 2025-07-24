@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import React from "react";
+import React, { useState, useContext, createContext } from "react";
 import '../Styles/Home.css'
 
 export default function HomePage() {
@@ -15,7 +15,8 @@ export default function HomePage() {
                 </div>
                 <div>
                     Experience!
-                </div>  
+                </div> 
+                
             </div>
             
         </div>

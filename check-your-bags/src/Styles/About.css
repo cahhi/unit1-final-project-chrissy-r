@@ -19,8 +19,10 @@ th {
     background-color: rgba(160, 228, 230, 0.913);
 }
 
-
 .about-input {
      justify-content: center;
 }
 
+#about-page h1 {
+    text-align: center;
+}
