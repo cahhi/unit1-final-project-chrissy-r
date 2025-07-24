@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import '../Styles/About.css'
-import background1 from '../Pictures/background1.jpg';
+
 
 
 

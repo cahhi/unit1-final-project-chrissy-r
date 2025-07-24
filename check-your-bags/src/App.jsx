@@ -6,7 +6,6 @@ import HomePage from './Pages/home';
 import AboutPage from './Pages/about';
 import PackingList from './Pages/packingList';
 import Postcard from './Pages/postcard';
-import UserProfile from './Pages/userProfile';
 import Layout from './Layout';
 import Footer from './Components/Footer';
 
@@ -24,7 +23,6 @@ const App = () => {
             <Route path="/about" element={<AboutPage />}/>
             <Route path="/packingList" element={<PackingList />}/>
             <Route path="/postcard" element={<Postcard />}/>
-            <Route path="/userProfile" element={<UserProfile />}/>
           </Route>
         </Routes>
       </Router>

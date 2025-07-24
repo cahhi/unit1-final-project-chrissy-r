@@ -22,9 +22,6 @@ export default function NavBar() {
                 <Link to="/postcard">
                    <button className="postcard-button">Postcard</button>
                 </Link>
-              {/*   <Link to="/userProfile">
-                    <button className="profile-button">Profile</button>
-                </Link> */}
 
             </div>
         </div>

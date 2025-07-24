@@ -1,6 +1,5 @@
 .wrapper {
     font-family: "Over the Rainbow", cursive;
-    background-image: url('../Pictures/bg1.jpg');
     background-size: 100%;
 }
 
@@ -111,6 +110,7 @@ h1 {
     width: 260px;
     margin-bottom: 8px;
 }
+
 
 
 

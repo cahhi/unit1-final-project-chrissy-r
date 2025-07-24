@@ -1,7 +1,6 @@
 import '../Styles/PackingList.css' 
 import React from 'react';
 import { useState } from 'react';
-import packing1 from '../Pictures/packing1.jpg';
 
 
 
