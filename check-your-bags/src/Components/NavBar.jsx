@@ -4,7 +4,7 @@ import Header from "./Header";
 
 
 
-export default function NavBar() {
+export default function NavBar() { //provides button links to each page
 
     return (
         <div className="navbar">
@@ -14,7 +14,7 @@ export default function NavBar() {
                     <button className="home-button">Home</button>
                 </Link>
                 <Link to="/about">
-                    <button>About</button>
+                    <button className="about-button">About</button>
                 </Link>
                 <Link to="/packingList">
                     <button className="packingList-button">Packing List</button>

@@ -7,10 +7,11 @@ export default function HomePage() {
         <>
         <div>
             <div id="home-container">
-                Make Travel 
-                <div id="flip">
+                Let us help
+                <br /> make your Travel 
+                <div id="flip"> {/* sets the divs for the animation */}
                     <div><div>An Amazing</div></div>
-                    <div><div>An Inspiring</div></div>
+                    <div><div>An Unforgettable</div></div>
                     <div><div>A Breathtaking</div></div>
                 </div>
                 <div>

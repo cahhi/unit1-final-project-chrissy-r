@@ -25,4 +25,12 @@ th {
 
 #about-page h1 {
     text-align: center;
+    
+}
+
+@media only screen and (max-width: 898px) {
+  .aboutParagraph {
+    font-size: 15px;
+    overflow: visible;
+  }
 }

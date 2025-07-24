@@ -12,10 +12,7 @@ export default function PackingList() {
     const [newItem, setNewItem] = useState("");
     
 
-    function isPacked(i) {
-        setItems
-    }
-
+    //updates the array when new item is added 
     function addItem() {
 
         if(newItem.trim() !== "") {
@@ -27,7 +24,7 @@ export default function PackingList() {
 
     }
 
-
+    //deletes the item from the array when user clicks on the trash icon
     function deleteItem(index) {
 
         const updatedItems = items.filter((element, i) => i !== index);
@@ -47,25 +44,21 @@ export default function PackingList() {
                 maxLength="20"
                 placeholder='Enter an item...'
                 value={newItem}
-                onChange={(e) => setNewItem(e.target.value)}
+                onChange={(e) => setNewItem(e.target.value)} //allows users to enter in the item to be added to the display
                 />
                 <button 
                 className='add-button'
-                onClick={addItem}
+                onClick={addItem} //adds the item by calling the function
                 >Add</button>
             </div>
 
             <ol>
-                {items.map((item, index) => <li key={index}> 
+                {items.map((item, index) => <li key={index}>  {/* maps the items by using a key to delete when user selects the trashcan button */}
                     <span className="text">{item}</span>
                     <button
-                    className="delete-button"
+                    className="delete-button" 
                     onClick={() => deleteItem(index) }
                     >🗑️</button>
-                    {/*  <button
-                    className="edit-button"
-                    onClick={() => editItem(index)}
-                    >✏️</button> */}
                 </li>)} 
             </ol>
            
