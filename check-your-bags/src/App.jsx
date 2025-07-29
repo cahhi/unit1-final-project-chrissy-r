@@ -6,7 +6,7 @@ import HomePage from './Pages/home';
 import AboutPage from './Pages/about';
 import PackingList from './Pages/packingList';
 import Postcard from './Pages/postcard';
-import Layout from './Components/Layout';
+import Layout from './Layout';
 import Footer from './Components/Footer';
 
 

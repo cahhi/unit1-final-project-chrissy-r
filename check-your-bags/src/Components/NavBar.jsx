@@ -4,7 +4,7 @@ import Header from "./Header";
 
 
 
-export default function NavBar() { //provides button links to each page
+export default function Navbar() { //provides button links to each page
 
     return (
         <div className="navbar">
