@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import '../Styles/About.css'
-import User from "../userWelcome";
+import User from "../Components/userWelcome";
 
 
 

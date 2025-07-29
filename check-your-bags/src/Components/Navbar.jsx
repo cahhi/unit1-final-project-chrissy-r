@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import './Styles/Navbar.css'
+import '../Styles/Navbar.css'
 import Header from "./Header";
 
 
