@@ -7,7 +7,7 @@ import AboutPage from './Pages/about';
 import PackingList from './Pages/packingList';
 import Postcard from './Pages/postcard';
 import Layout from './Layout';
-import Footer from './Components/Footer';
+import Footer from './Footer';
 
 
 const App = () => {

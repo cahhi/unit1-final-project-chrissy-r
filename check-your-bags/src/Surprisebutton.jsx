@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Confetti from "react-confetti";
-import '../Styles/SurpriseButton.css'
+import './Styles/SurpriseButton.css'
 
 const SurpriseButton = () => { //reusable component that offers users a surprise
     const [showConfetti, setShowConfetti] = useState(false);

@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import './Styles/Navbar.css'
-import Header from "./Components/Header";
+import Header from "./Header";
 
 
 
