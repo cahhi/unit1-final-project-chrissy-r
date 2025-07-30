@@ -25,7 +25,7 @@ export default function Postcard() {
                 <div className="postcard-page">
                     <div className="wrapper">
                         <section>
-                            <form className="postcard">
+                            <form className="postcard" method="post" >
                                 <div className="postcard-header">
                                     <img src={stamp1} alt="Picture of computer and coffee cup on a light wood desk. Only partial image is shown" />
                                     <h1>My Postcard</h1>
@@ -49,7 +49,7 @@ export default function Postcard() {
                                     </div>
                                 </div>
                                 <div className="postcard-footer">
-                                        <input type="submit" name="submit-button" value="Bon Voyage!"  formAction="postcard.jsx" />
+                                        <input type="submit" name="submit-button" value="Bon Voyage!"/>
                                 </div>
                             </form>
                                 
