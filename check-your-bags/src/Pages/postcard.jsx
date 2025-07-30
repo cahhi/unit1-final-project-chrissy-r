@@ -25,7 +25,7 @@ export default function Postcard() {
                 <div className="postcard-page">
                     <div className="wrapper">
                         <section>
-                            <form className="postcard" method="post" >
+                            <form className="postcard" method="post" action="https://checkyourbags1.netlify.app/postcard">
                                 <div className="postcard-header">
                                     <img src={stamp1} alt="Picture of computer and coffee cup on a light wood desk. Only partial image is shown" />
                                     <h1>My Postcard</h1>
