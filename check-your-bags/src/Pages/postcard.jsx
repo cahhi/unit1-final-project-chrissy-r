@@ -18,6 +18,10 @@ export default function Postcard() {
     const [food, setFood] = useState("croissants");
     const [userName, setUserName] = useState("Your name here");
 
+    function postcardSubmit() {
+        alert("Postcard has been sent!");
+    }
+
 
     return (
         <>
@@ -25,7 +29,7 @@ export default function Postcard() {
                 <div className="postcard-page">
                     <div className="wrapper">
                         <section>
-                            <form name="postcard" className="postcard" method="POST" action="/*">
+                            <form name="postcard" className="postcard" method="POST" action="/*" data-netlify="true">
                                 <div className="postcard-header">
                                     <img src={stamp1} alt="Picture of computer and coffee cup on a light wood desk. Only partial image is shown" />
                                     <h1>My Postcard</h1>
@@ -49,7 +53,8 @@ export default function Postcard() {
                                     </div>
                                 </div>
                                 <div className="postcard-footer">
-                                        <button type="submit">Bon Voyage</button>
+                                        <button type="submit" 
+                                        onClick={() => (postcardSubmit)}>Bon Voyage</button>
                                 </div>
                             </form>
                                 
