@@ -61,14 +61,12 @@ export default function AboutPage() {
                     placeholder="Enter email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
-                    />
+                    required />
                     <button onClick={handleSubmit}>Submit</button> {/* this button calls the function so that the error will be displayed as needed */}
                     {error && <p style={{color: "red"}}>{error}</p>} {/* conditional rendering so that the error message shows to the user in red text */}
                     </div>
                     </p>
-                   
                 </form>
-
                 </div>
         </div>
     );
