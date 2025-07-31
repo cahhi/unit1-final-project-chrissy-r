@@ -9,8 +9,9 @@ export default function AboutPage() {
 
     const [email, setEmail] = useState("");
     const [error, setError] = useState("");
-    const handleSubmit = () => { //this will throw an error to the user if they press the submit button and no email is entered
+    const handleSubmit = (event) => { //this will throw an error to the user if they press the submit button and no email is entered
          if(!email){
+            event.preventDefault();
             setError("Email is required.");
          }else {
             setError("");
