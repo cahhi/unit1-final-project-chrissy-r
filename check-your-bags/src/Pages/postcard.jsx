@@ -25,7 +25,7 @@ export default function Postcard() {
                 <div className="postcard-page">
                     <div className="wrapper">
                         <section>
-                            <form className="postcard" method="post" action="https://checkyourbags1.netlify.app/postcard">
+                            <form className="postcard" method="post" action="/postcard">
                                 <div className="postcard-header">
                                     <img src={stamp1} alt="Picture of computer and coffee cup on a light wood desk. Only partial image is shown" />
                                     <h1>My Postcard</h1>
@@ -49,7 +49,7 @@ export default function Postcard() {
                                     </div>
                                 </div>
                                 <div className="postcard-footer">
-                                        <input type="submit" name="submit-button" value="Bon Voyage!"/>
+                                        <input type="submit" name="submit-button" value="Postcard"/>
                                 </div>
                             </form>
                                 
