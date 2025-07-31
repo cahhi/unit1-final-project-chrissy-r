@@ -15,6 +15,8 @@ export default function AboutPage() {
             setError("Email is required.");
          }else {
             setError("");
+            event.preventDefault();
+            alert("Postcard has been sent!");
             
         }
     }
