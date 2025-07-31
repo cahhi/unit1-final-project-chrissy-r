@@ -49,7 +49,7 @@ export default function Postcard() {
                                     </div>
                                 </div>
                                 <div className="postcard-footer">
-                                        <input type="submit" name="submit-button" value="Postcard"/>
+                                        <button type="submit">Bon Voyage</button>
                                 </div>
                             </form>
                                 
