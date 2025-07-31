@@ -16,7 +16,7 @@ export default function AboutPage() {
          }else {
             setError("");
             event.preventDefault();
-            alert("Postcard has been sent!");
+            alert("You have been added to the newsletter!");
             
         }
     }
